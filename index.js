@@ -14,6 +14,15 @@ app.get('/', (peticion, respuesta) => {
 
 })
 
+app.get('/main', (peticion, respuesta) => {
+
+    respuesta.send(`<h1 style="color: red;">Bienvenido a la Aplicación de Ecommerce</h1>`)
+
+    console.log('Cambiamos el texto a rojo y le agregamos un h1');
+    console.log(process.env);
+
+})
+
 app.listen(PORT, (err) => {
     if(err) throw err;
 
