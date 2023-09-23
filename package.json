@@ -1,6 +1,6 @@
 {
   "name": "04-clase",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Trabajando con Git",
   "main": "index.js",
   "scripts": {
